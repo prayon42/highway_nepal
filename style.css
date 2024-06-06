@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.map-section {
+    display: flex;
+}
+
+.map-controls {
+    margin-right: 20px;
+}
+
+#map {
+    width: 600px;
+    height: 400px;
+    border: 1px solid #ccc;
+}
+
+.district-selection {
+    flex-grow: 1;
+}
+
+#highway-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#highway-list li {
+    margin-bottom: 10px;
+}
+
+.selected {
+    font-weight: bold;
+    color: #007bff;
+}
